@@ -11,7 +11,7 @@ try {
   getQt();
   setInterval(() => {
     getQt();
-  }, 2500);
+  }, 5000);
 } catch(err) {
   console.error(err);
 }
