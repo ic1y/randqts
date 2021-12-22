@@ -8,6 +8,7 @@ html {
   scrollbar-width: thin;
   background-color: #0f0f0f;
   color: #f0f0f0;
+  color-scheme: dark;
   -webkit-text-size-adjust: 100%;
 }
 body {
@@ -18,6 +19,9 @@ body {
 .main {
   margin: 10vw;
 }
+.tx {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .qt {
   font-size: 24px;
 }
@@ -25,10 +29,11 @@ body {
   float: right;
   font-size: 18px;
 }
-.tx {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .tx::selection {
   color: #0f0f0f;
   background-color: #f0f0f0;
+}
+@media (prefers-color-scheme: light) {
+  html {background-color: #f0f0f0; color: #0f0f0f; color-scheme: light;}
+  .tx::selection {color: #f0f0f0; background-color: #0f0f0f;}
 }
