@@ -4,3 +4,4 @@ app.get('/', function(req,res) {
 })
 app.use(exp.static('./public'));
 app.listen(3100);
+console.log('ok')

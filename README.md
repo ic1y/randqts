@@ -1,4 +1,7 @@
 # randqts
 randqts is a random quote generator
+It refeshes with a new quote every 5 seconds
 
-quotes are retrieved from https://type.fit/api/quotes (not mine!)
+[randqts webpage](https://qt.vercel.app/)
+
+Quotes are from [Type.fit](https://type.fit/)
