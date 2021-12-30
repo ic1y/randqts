@@ -31,9 +31,9 @@ body {
 }
 .tx::selection {
   color: #0f0f0f;
-  background-color: #f0f0f0;
+  background-color: lightblue;
 }
 @media (prefers-color-scheme: light) {
   html {background-color: #f0f0f0; color: #0f0f0f; color-scheme: light;}
-  .tx::selection {color: #f0f0f0; background-color: #0f0f0f;}
+  .tx::selection {color: #f0f0f0; background-color: darkblue;}
 }
